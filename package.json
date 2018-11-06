@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app",
     "test": "\"echo \\\"Error: no test specified\\\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/Kylekoh/chat_service/issues"
   },
-  "homepage": "https://github.com/Kylekoh/chat_service#readme"
+  "homepage": "https://github.com/Kylekoh/chat_service#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3",
+    "ws": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
 }
